@@ -11,6 +11,7 @@ def summon_captain_planet(planeteer_calls)
    planeteer_calls.collect do |calls|
      new_calls << "#{calls.upcase}!"
    end
+end
 
 def long_planeteer_calls(planeteer_calls)
 array.any? do |word|
