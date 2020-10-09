@@ -16,7 +16,6 @@ def long_planeteer_calls(planeteer_calls)
 planeteer_calls.any? do |word|
   word.length < 4
 end  # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
-long_planeteer_calls(planeteer_calls)  # Return the boolean result of this check
 end
 
 def find_valid_calls(planeteer_calls)
